@@ -25,6 +25,24 @@ export default function NavBar() {
             </div>
       </nav>
       <Section/>
+      <div className='bg-warning p-3'>
+      <div className='container d-lg-flex p-2 align-items-center justify-content-between'>
+        <h1 className='fs-4 mb-3 mb-lg-0'>Sign Up For Our NewsLetter</h1>
+        <div className='input-group w-50'>
+          <input 
+            type='text' 
+            className='form-control' 
+            placeholder="Recipient's username" 
+          />
+          <button 
+            className='input-group-text btn bg-danger text-white hover-effect'
+            id='basic-addon2'
+          >
+            Subscribe
+          </button>
+        </div>
+      </div>
+    </div>
     </div>
   )
 }

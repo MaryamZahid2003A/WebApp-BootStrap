@@ -24,6 +24,7 @@ export default function Section() {
           width='400'
         />
       </div>
+      
     </div>
   );
 }
