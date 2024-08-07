@@ -31,7 +31,7 @@ export default function NavBar() {
         <div className='input-group w-50'>
           <input 
             type='text' 
-            className='form-control' 
+            className='form-control w-lg-full' 
             placeholder="Recipient's username" 
           />
           <button 
